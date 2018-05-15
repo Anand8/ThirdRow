@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Reports" >
+	
+	
+	<test name="tst_retest_firefox">
+	<parameter name="browser" value="firefox" />
+	<classes>
+		<class name="com.zensar.GoogleExample"/>
+	</classes>
+	</test>
+</suite>
